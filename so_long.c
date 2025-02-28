@@ -6,7 +6,7 @@
 /*   By: mowardan <mowardan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/08 09:59:46 by mowardan          #+#    #+#             */
-/*   Updated: 2025/02/24 10:21:11 by mowardan         ###   ########.fr       */
+/*   Updated: 2025/02/26 15:05:06 by mowardan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int	initialize_game(t_henix *henix, char *map_file, int *height, int *width)
 			*height))
 	{
 		free_map(henix->map);
-		return(1);
+		return (1);
 	}
 	return (0);
 }

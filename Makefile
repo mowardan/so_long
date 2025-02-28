@@ -4,10 +4,7 @@ CFLAGS = -Wall -Wextra -Werror -g3
 MLX_DIR = /usr/include/minilibx-linux
 MLX_LIB = -lmlx -L$(MLX_DIR) -lXext -lX11
 
-SRCS = flood_fill.c get_next_line.c\
-       map.c get_next_line_utils.c\
-       so_long.c working_on_images.c\
-       destroy_func.c so_long_utils.c\
+SRCS = game.c\
 
 OBJS = $(SRCS:.c=.o)
 
